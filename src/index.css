@@ -1,0 +1,59 @@
+body {
+  /*background-image: url(https://pixabay.com/get/g77ca8ef2be8103895c22b5c4d89c3070057871825fdf0e18cfad20ea3156318b0cd0e65dd0cbde77c7c9932faa62a89e54399a8eb964479e1eaef9787ea07f43dc2a89de7af80ac8d1be21a83225fb86_640.png);
+  background-image: url(https://pixabay.com/get/g1bc029abfe4f7f0ba14c6f68a1987749175cc96224797f2f6aa3b96a831f434a5643d105db4e4464ca15a09cc16ef0cc995a9c7e90958942dd60e9bffd98c329ccef3f22f24966cb7929afeed12be8c9_640.jpg)*/
+  background-color: white;
+}
+  
+.box {
+  display: inline-block;       
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  }
+
+.off {
+  background-color: lightgray;
+}
+
+.on {
+  background-color: green;
+}
+  
+.box:hover { 
+  background: #00CCFF;
+}
+
+.center {
+  margin: auto;
+  display: table;
+  margin-top: 10px;
+}
+
+.grid {
+  width: 150px;
+  line-height: 0;
+  margin: auto;
+  /*box-shadow: 0px 0px 20px white;*/
+  margin-top: 20px;
+}
+  
+h1, h2, h3, h4 {
+  color: black;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 10px;
+}
+
+h4 {
+  margin-top: 0px;
+}
+.btn1{
+  margin-left: 34%;
+}
+
+.btn{
+  margin-right: 10px;
+}
